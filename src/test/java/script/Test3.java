@@ -13,7 +13,7 @@ import page.HomePage;
 public class Test3 extends BaseTest
 {
 public static void main(String[] args) {
-	System.out.println("test");
+	System.out.println("testing");
 }	
 		
 	
