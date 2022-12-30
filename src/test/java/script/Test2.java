@@ -14,7 +14,7 @@ public class Test2 extends BaseTest
 {
 	@Test(priority = 2)
 	public void testB() {
-		
+		//this is a comment
 		String v=Utility.getXlData(XLPATH,"test1", 0, 0);
 		test.info("From xl:"+v);
 		
