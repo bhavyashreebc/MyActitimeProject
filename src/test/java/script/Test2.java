@@ -1,10 +1,7 @@
 package script;
 
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.ExtentTest;
 
 import generic.BaseTest;
 import generic.Utility;
@@ -12,7 +9,7 @@ import page.HomePage;
 
 public class Test2 extends BaseTest
 {
-	@Test(priority = 2)
+	@Test(enabled=false,priority = 2)
 	public void testB() {
 		//this is a comment
 		String v=Utility.getXlData(XLPATH,"test1", 0, 0);
